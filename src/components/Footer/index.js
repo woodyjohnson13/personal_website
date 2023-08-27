@@ -3,6 +3,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import TelegramIcon from '@mui/icons-material/Telegram';
+
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -88,23 +90,21 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Teimur Samedov</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
+          {/* <NavLink href="#education">Education</NavLink> */}
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          {/* <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon> */}
+          {/* <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon> */}
+          {/* <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon> */}
+          {/* <SocialMediaIcon href={Bio.insta} target="display"><TelegramIcon /></SocialMediaIcon> */}
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
-        </Copyright>
+
 
       </FooterWrapper>
     </FooterContainer>
